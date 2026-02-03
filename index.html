@@ -117,9 +117,13 @@
     }
 
     .fireworks {
-      width: min(380px, 90vw);
-      margin: 0 auto;
+      width: 100%;
+      max-width: 320px;
+      height: auto;
+      max-height: 35vh;
+      object-fit: contain;
       display: block;
+      margin: 0 auto;
     }
 
     @keyframes pop {
@@ -182,10 +186,10 @@
     <div class="hint" id="hint">“No” seems a bit shy 😈</div>
 
     <section class="result" id="result">
-      <h2>YAY !!! 🎉</h2>
+      <h2>YAY! 🎉</h2>
       <img
         class="fireworks"
-        src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDhybDF2dDBubmRrbzlyMTZpaThybzRrdzhobnY2dGNua2M1Y282YiZlcD12MV9pbnRlcm5hbF9	naWZfYnlfaWQmY3Q9Zw/87E99DbBCzm0D7wle0/giphy.gif"
+	src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDhybDF2dDBubmRrbzlyMTZpaThybzRrdzhobnY2dGNua2M1Y282YiZlcD12MV9pbnRlcm5hbF9	naWZfYnlfaWQmY3Q9Zw/87E99DbBCzm0D7wle0/giphy.gif"
         alt="Fireworks"
       />
     </section>
@@ -300,9 +304,3 @@
   </script>
 </body>
 </html>
-
-
-
-
-
-
